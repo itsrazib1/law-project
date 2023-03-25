@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    background-image: radial-gradient(circle at top left, #0F1626, #000000);
+    background-size: 100% 100%;
+    animation: animateBackground 20s ease-in-out infinite;
+  }
+  
+  @keyframes animateBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+  
+  @media only screen and (max-width: 576px) {
+    .delet{
+        display: none;
+    }
+   .aboutText{
+    font-size: 1px;
+    color: aqua;
+   }
+  }
