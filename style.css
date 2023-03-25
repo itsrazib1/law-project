@@ -27,4 +27,11 @@ body {
     font-size: 1px;
     color: aqua;
    }
+   .manuBar{
+    margin-top: -40px;
+    margin-left: 270px;
+   }
+   .manuNbar{
+    margin-left: -20px;
+   }
   }
